@@ -1,0 +1,25 @@
+{
+  "name": "power-schematics",
+  "version": "1.0.0",
+  "description": "Create file schema. generate different files from this schema any time automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gendie/power-schematics.git"
+  },
+  "keywords": [
+    "schematics",
+    "files",
+    "generate",
+    "angular"
+  ],
+  "author": "Gendy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gendie/power-schematics/issues"
+  },
+  "homepage": "https://github.com/Gendie/power-schematics#readme"
+}
