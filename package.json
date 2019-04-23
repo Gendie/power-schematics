@@ -4,7 +4,8 @@
   "description": "Create file schema. generate different files from this schema any time automatically",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register src/test/**/*.spec.ts",
+    "build": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/Gendie/power-schematics/issues"
   },
-  "homepage": "https://github.com/Gendie/power-schematics#readme"
+  "homepage": "https://github.com/Gendie/power-schematics#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "rewire": "^4.0.1",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  },
+  "dependencies": {}
 }
